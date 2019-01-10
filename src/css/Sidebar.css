@@ -1,0 +1,35 @@
+/* Style the navigation menu */
+.Sidebar nav {
+    background: whitesmoke;
+    text-align: right;
+    flex-basis: 10%;
+    order: 1;
+    height: inherit;
+    padding-top: 20px;
+}
+
+/* Style the list inside the menu */
+.Sidebar nav ul {
+    list-style-type: none;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
+.Sidebar nav ul li{
+    margin-top: 10px;
+}
+
+.Sidebar nav ul li:first-child {
+    margin-top:0;
+}
+
+/* Style the links inside the menu */
+.Sidebar a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+
+.Sidebar a:hover,
+.Sidebar a:active {
+    color: salmon;
+}

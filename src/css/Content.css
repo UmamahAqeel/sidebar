@@ -1,0 +1,9 @@
+.Content {
+    background-color: #FEF5E7;
+    text-align: center;
+    flex-basis: 80%;
+    order: 2;
+    height: inherit;
+    border-left: solid 1px black;
+    padding-top: 20px;
+}
